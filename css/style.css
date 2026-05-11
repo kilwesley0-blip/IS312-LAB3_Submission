@@ -1,0 +1,36 @@
+
+/* Custom Style Rule 1 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Custom Style Rule 2 */
+.hero-section {
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)),
+    url('../images/tech1.jpg');
+
+    background-size: cover;
+    background-position: center;
+}
+
+/* Custom Style Rule 3 */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Extra Styling */
+footer {
+    margin-top: 50px;
+}
+
+
+
+
+
